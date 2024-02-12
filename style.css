@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Love+Ya+Like+A+Sister&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* max-height: 700px; */
+   background-size: auto;
+    /* height: 100%;
+    width: 100%; */
+    background: linear-gradient(rgba(177, 186, 243, 0.895),rgba(248, 215, 220, 0.798));
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 50px;
+    
+}
+.part2{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 50px;
+}
+.part2 img{
+    width: 250px;
+    mix-blend-mode: darken;
+    margin: 20px 0;
+}
+.main img{
+    mix-blend-mode: darken;
+    width: 250px;
+    margin: 20px 0;
+}
+h1{
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-weight: 900;
+    font-size: 50px;
+    color: pink;
+    text-shadow: black 2px 4px 3px;
+}
+.btn{
+    width: 90px;
+    height: 30px;
+    margin: 20px;
+    min-height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(255, 192, 203, 0.64);
+    box-shadow: rgba(127, 127, 127, 0.588) 2px 4px 5px;
+    color: black;
+    
+}
+.part2{
+    margin-top: 10px;
+}
+.part2 img{
+    margin-top: 0px;
+}
+.fixDate{
+    width: 150px;
+}
+.no{
+    z-index: 100;
+}
+#letter{
+    width: 80px;
+    height: 80px;
+}
+
+
+#messageTextarea {
+    width: 240px;
+    height: 110px;
+    resize: none; /* Prevent resizing of the textarea */
+    padding: 5px;
+    font-size: 17px;
+    border: 1px solid #ccc;
+    font-family: 'Caveat', cursive;
+}
+
+#extractButton {
+    margin-top: 10px;
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+#Date{
+    margin: 10px;
+    width: 115px;
+    height: 25px;
+    font-size: 17px;
+    border: 1px solid #ccc;
+    min-height: 25px;
+    font-family: 'Caveat', cursive;
+    
+}
+#phone{
+    margin: 10px;
+    width: 115px;
+    height: 25px;
+    font-size: 17px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    text-justify: auto;
+    font-family: 'Caveat', cursive;
+}
+#extractButton:hover #Date:hover {
+    background-color: #0056b3;
+}
+
+
+
+@media screen and (max-width: 760px) {
+    h1{
+        font-size: 35px;
+    }
+    .part2 img {
+
+        width: 150px;
+    }
+
+}
